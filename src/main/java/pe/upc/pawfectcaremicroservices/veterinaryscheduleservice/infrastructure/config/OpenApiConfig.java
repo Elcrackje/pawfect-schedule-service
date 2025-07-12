@@ -20,7 +20,7 @@ public class OpenApiConfig {
                         .description("API for Schedule Service"))
                 .servers(List.of(
                         new Server()
-                                .url("http://localhost:8010/schedule-service")
+                                .url("https://pawfect-gateway-service.azurewebsites.net/schedule-service")
                                 .description("Gateway Server")/*,
                         new Server()
                                 .url("http://localhost:8097")
